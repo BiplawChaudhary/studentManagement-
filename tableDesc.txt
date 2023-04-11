@@ -1,0 +1,22 @@
+
+---------DESC STUDENT---------------
+Name     Null?    Type         
+-------- -------- ------------ 
+SID      NOT NULL NUMBER(3)    
+NAME     NOT NULL VARCHAR2(30) 
+ADDRESS  NOT NULL VARCHAR2(30) 
+SEMESTER NOT NULL VARCHAR2(10) 
+FACULTY  NOT NULL VARCHAR2(10)
+
+
+-------DESC USERS----------
+--------- -------- ------------ 
+U_ID      NOT NULL NUMBER(3)    
+USER_NAME          VARCHAR2(10) 
+
+--------DESC COUNTER---------------
+Name Null? Type      
+---- ----- --------- 
+S_ID       NUMBER(3) 
+P_ID       NUMBER(3) 
+U_ID       NUMBER(3)
